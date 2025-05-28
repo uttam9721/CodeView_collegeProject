@@ -1,0 +1,57 @@
+/* HomePage.css */
+.home-page {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.817); /* White background for the form */
+    padding: 20px; /* Padding around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Maximum width */
+    box-shadow: 2px 5px 3px rgb(255, 255, 255) inset;
+}
+
+.form div {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+label {
+    display: block; /* Make label a block element */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold label text */
+}
+
+input {
+    width: 95%; /* Full width input */
+    padding: 10px; /* Padding inside the input */
+    border:none; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .form {
+        padding: 15px; /* Less padding on smaller screens */
+    }
+}
